@@ -1,0 +1,28 @@
+{
+    "name": "terminal42/asset-bundle",
+    "description": "Symfony3 bundle to automatically register public files of all bundles as asset packages.",
+    "type": "symfony-bundle",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "terminal42 gmbh",
+            "homepage": "https://www.terminal42.ch/"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/asset": "^3.3",
+        "symfony/http-kernel": "^3.3",
+        "symfony/dependency-injection": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Terminal42\\AssetBundle\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0.x-dev"
+        }
+    }
+}
